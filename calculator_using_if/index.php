@@ -76,6 +76,7 @@ if(isset($_POST['btnCalcular']))
 <body>
     <header class="align_center">
         <h1 class="title" >Calculadora Simples</h1>
+        <h2>Com if</h2>
     </header>
     <section id="box_calc" class="align_center">
         
