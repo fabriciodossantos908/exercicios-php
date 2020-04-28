@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Base tags */
+.align_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.subtitle {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+header, footer {
+    width: 800px;
+    height: 100px;
+    background-color: bisque;
+}
+
+header {
+    height: 80px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/*calculator part */
+
+#box_calc {
+    width: 600px;
+    min-height: 100px;
+    height: auto;
+    box-shadow: black 1px 1px 2px;
+    border-radius: 10px;
+}
+
+
+#frm_calc, #box_result {
+    width: inherit;
+    height: 350px;
+    background-color: beige;
+    border-radius: inherit;
+}
+
+/* input part */
+
+#frm_top {
+    width: inherit;
+    height: 175px;
+}
+
+.input_val {
+    width: 80%;
+    height: 50%;
+}
+
+.input_val > input {
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    border: none;
+}
+
+.input_val > input:focus {
+    width: 100%;
+    box-shadow: black 2px 2px 10px;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+
+
+/* bottom side of calculator */
+#frm_bottom {
+    width: inherit;
+    height: 87.5px;
+    margin-top: 5%;
+}
+
+.rd_opt {
+    width: 80%;
+    height: 15%;
+    margin-bottom: 2%;
+}
+
+.rd_opt > .subtitle {
+    font-size: 20px;
+}
+
+.rd_opt > label {
+    cursor: pointer;
+}
+
+#box_btn {
+    width: 100%;
+    height: 35%;
+}
+
+#btn_calc {
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#btn_calc:hover {
+    width: 40%;
+    margin-left: 30%;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+/* result part */
+#result_part {
+    width: inherit;
+    height: 90px;
+    padding-top: 10px;
+    border-radius: inherit;
+}
+
+#box_result {
+    width: 30%;
+    height:60px;
+    border-radius: 5%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: bisque;
+}
